@@ -22,12 +22,12 @@
 .logo_placeholder {
   flex-grow: 15;
   justify-content: left;
-  padding-left: 5vw;
+  padding: 5vw;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 10px;
+  line-height: 15px;
 }
 
 .menu_icons div {
@@ -42,7 +42,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  padding: 30px;
 }
 
 .headline {
@@ -61,8 +61,6 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  align-items: center;
-  flex: none;
   order: 0;
   margin: 12px 0;
 }
@@ -71,7 +69,7 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   flex: none;
   order: 1;
@@ -83,14 +81,13 @@
   color: #7f8cff;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 16px;
   line-height: 24px;
-
   text-decoration: none;
   flex: none;
-  order: 0;
+  order: 2;
   flex-grow: 0;
   margin: 0 8px;
 }
@@ -98,9 +95,11 @@
 .social_media {
   display: flex;
   flex: none;
+
+  /* margin: 0px; */
+  padding-left: 0;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0;
 }
 
 .fa {
@@ -109,4 +108,9 @@
   width: 40px;
   margin: 5px;
   color: #505f79;
+}
+
+.firstpart {
+  display: flex;
+  flex-direction: column;
 }
