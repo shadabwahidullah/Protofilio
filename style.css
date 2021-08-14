@@ -6,7 +6,6 @@
   min-height: 100vh;
 }
 
-
 .toolbar_items {
   flex-grow: 2;
   color: #6070ff;
@@ -93,7 +92,7 @@
   color: #505f79;
 }
 
-.list_item{
+.list_item {
   text-decoration: none;
 }
 
@@ -110,3 +109,6 @@
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
