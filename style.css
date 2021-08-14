@@ -3,19 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .container {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
 }
 
-.toolbar {
-  display: flex;
-}
 
 .toolbar_items {
-  display: flex;
   flex-grow: 2;
-  justify-content: center;
   color: #6070ff;
 }
 
@@ -39,15 +32,10 @@
 }
 
 .menu_icons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 30px;
 }
 
 .headline {
-  display: flex;
-  flex-direction: column;
   flex-grow: 6;
   padding: 3%;
   background-image: url('images/bg.png');
@@ -92,10 +80,6 @@
 }
 
 .social_media {
-  display: flex;
-  flex: none;
-
-  /* margin: 0px; */
   padding-left: 0;
   order: 3;
   flex-grow: 0;
@@ -109,7 +93,20 @@
   color: #505f79;
 }
 
-.firstpart {
+.list_item{
+  text-decoration: none;
+}
+
+.d-flex-c {
   display: flex;
   flex-direction: column;
 }
+
+.d-flex-r {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
