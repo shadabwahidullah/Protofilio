@@ -8,11 +8,6 @@
 
 It is a Protofolio template mobile version and I am working on it to make a great responsive protofolio template.
 
-## Built With
-
-- HTML
-- CSS
-- 
 ## Getting Started
 
 for using this template you just need to clone it then you can run index.html file and it showsup in your browser
